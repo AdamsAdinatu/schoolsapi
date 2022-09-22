@@ -5,6 +5,6 @@ const  router = Router();
 
 router.post("/addschool", createSchool)
 
-router.get("/schools").get(getSchools)
+router.get("/", getSchools)
 
 module.exports=router

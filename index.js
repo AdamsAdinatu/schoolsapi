@@ -11,7 +11,7 @@ connectDB();
 
 //middleware
 app.use(express.json())
-app.use('/api/users', userRoute)
+app.use("/api/users", userRoute)
 app.use("/api/schools", schoolRoute)
 app.use(morgan('dev'))
 
